@@ -7,13 +7,8 @@ public class Gun : MonoBehaviour
 {
     public GameObject bullet;
     public GameObject player;
-    private Bullet bulletScript;
     private Vector3 bulletDirection;
 
-    void Start()
-    {
-        bulletScript = bullet.GetComponent<Bullet>();
-    }
 
     // 총알 발사 메소드
     public void doGunAttack()
